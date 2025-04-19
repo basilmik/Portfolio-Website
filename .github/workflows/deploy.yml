@@ -24,7 +24,7 @@ jobs:
         run: npm run build  # Команда для сборки (должна создавать папку `dist`)
 
       - name: Install SSH key
-        uses: actions-website/rsync-deployments@master
+        uses: Burnett01/rsync-deployments@7.0.2
         with:
           switches: -avzr --delete
           path: dist/
