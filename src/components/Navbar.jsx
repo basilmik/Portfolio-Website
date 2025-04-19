@@ -49,6 +49,7 @@ const Navbar = () => {
 
   return (
     <>
+     ЛЕЙЛАЛЕЙЛА
       <nav
         className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary`}
       >
